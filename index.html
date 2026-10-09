@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Théo Beille</title>
+  <meta name="description" content="Théo Beille — MSc student in Machine Learning & Computer Vision (MVA, ENSTA Paris).">
+  <style>
+    body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 15px; line-height: 1.55;
+           color: #222; background: #fff; margin: 0; }
+    .wrap { max-width: 820px; margin: 0 auto; padding: 40px 16px; }
+    a { color: #1a4d8f; text-decoration: none; } a:hover { text-decoration: underline; }
+    h1 { font-size: 30px; font-weight: 400; margin: 0 0 12px; }
+    h2 { font-size: 20px; font-weight: 500; margin: 40px 0 14px; }
+    .intro { display: flex; gap: 32px; align-items: center; }
+    .intro .text { flex: 1; }
+    .intro img { width: 180px; height: 180px; object-fit: cover; border-radius: 50%; }
+    .links { margin-top: 14px; text-align: center; }
+    .links a { margin: 0 4px; }
+    .item { display: flex; gap: 24px; margin-bottom: 24px; }
+    .item .thumb { width: 160px; flex-shrink: 0; }
+    .item .thumb img { width: 160px; border-radius: 4px; }
+    .title { font-weight: 600; }
+    .meta { color: #555; font-style: italic; }
+    ul.plain { padding-left: 18px; margin: 0; }
+    footer { margin-top: 50px; font-size: 12px; color: #888; text-align: right; }
+    @media (max-width: 600px) {
+      .intro, .item { flex-direction: column; }
+      .intro img { width: 140px; height: 140px; }
+    }
+  </style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="intro">
+    <div class="text">
+      <h1>Théo Beille</h1>
+      <p>I am a master's student in the <a href="https://www.master-mva.com/">MVA program</a> (Mathematics, Vision, Learning) at ENS Paris-Saclay,
+         and an engineering student in applied mathematics at <a href="https://www.ensta-paris.fr/">ENSTA Paris</a> (Institut Polytechnique de Paris).</p>
+      <p>Previously, I was a visiting researcher at <a href="https://www.kth.se/">KTH Royal Institute of Technology</a> in Stockholm,
+         working with Prof. Ozan Öktem on learned optimization for medical imaging.</p>
+      <p>I am interested in <b>machine learning</b>, <b>computer vision</b> and <b>learned optimization</b>.</p>
+      <p><b>I am looking for a research internship (end-of-studies) starting February 2027.</b></p>
+      <p class="links">
+        <a href="mailto:theo.beille@ensta-paris.fr">Email</a> &nbsp;/&nbsp;
+        <a href="cv.pdf">CV</a> &nbsp;/&nbsp;
+        <a href="https://github.com/TheoBeille">GitHub</a> &nbsp;/&nbsp;
+        <a href="https://www.linkedin.com/in/theo-beille-6aa367320/">LinkedIn</a>
+      </p>
+    </div>
+    <img src="images/photo.jpg" alt="Théo Beille">
+  </div>
+
+  <h2>Research</h2>
+
+  <div class="item">
+    <div class="thumb"><img src="images/kth.png" alt=""></div>
+    <div>
+      <div class="title">Learned acceleration of iterative optimization with convergence guarantees</div>
+      <div><b>Théo Beille</b>, Ozan Öktem</div>
+      <div class="meta">KTH Royal Institute of Technology, 2026 — journal paper in preparation</div>
+      <div><a href="https://github.com/TheoBeille/Research-Internship">code &amp; report</a></div>
+      <p>A convolutional network (deep unrolling) predicts the acceleration parameters of an iterative
+         optimization algorithm, while a theoretical safeguard preserves its convergence guarantees.
+         After ~10 iterations, the learned method is up to 10× more accurate than the classical
+         algorithm on real clinical CT data (512×512).</p>
+    </div>
+  </div>
+
+  <h2>Projects</h2>
+
+  <div class="item">
+    <div>
+      <div class="title">Time series forecasting</div>
+      <div class="meta">ENSTA Paris — Python, Statsmodels, SciPy</div>
+      <p>Cleaned a real hospital attendance dataset (trend, seasonality, outliers), fitted an ARMA model and
+         produced forecasts with confidence intervals using the innovations algorithm.</p>
+    </div>
+  </div>
+
+  <div class="item">
+    <div>
+      <div class="title">Treatment effect analysis on medical data</div>
+      <div class="meta">ENSTA Paris — Python, Pandas, SciPy</div>
+      <p>Cleaned a patient dataset and ran a statistical study to measure the effect of a treatment.</p>
+    </div>
+  </div>
+
+  <h2>Education</h2>
+  <ul class="plain">
+    <li><b>MSc MVA</b> — ENS Paris-Saclay, Université Paris-Saclay (2026–2027)</li>
+    <li><b>Engineering degree, Applied Mathematics</b> — ENSTA Paris, top 5% (2024–2027)</li>
+    <li><b>Erasmus exchange, Applied Mathematics</b> — KTH, Stockholm (2026)</li>
+    <li><b>CPGE MPSI / MP*</b> — Lycée Pierre Corneille, Rouen (2022–2024)</li>
+  </ul>
+
+  <h2>Teaching</h2>
+  <ul class="plain">
+    <li>Mathematics oral examiner (khôlleur), CPGE PSI (2026–present)</li>
+  </ul>
+
+  <footer>Template inspired by <a href="https://jonbarron.info/">Jon Barron</a>.</footer>
+</div>
+</body>
+</html>
